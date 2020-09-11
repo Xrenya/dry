@@ -1,3 +1,5 @@
+import pickle
+
 def save_obj(obj, filename):
   with open(f"{filename}.pkl", "wb") as f:
     pickle.dump(obj, f, pickle.HIGHEST_PROTOCOL)
