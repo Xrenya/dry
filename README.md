@@ -1,2 +1,3 @@
-# dry
-Random codes
+# Keep the code DRY
+
+Some reusable functions.
